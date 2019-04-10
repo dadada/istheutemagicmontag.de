@@ -52,104 +52,81 @@ function nextMagicMonday() {
 	</head>
 	<body>
 		<div class="jumbotron">
-			<h2>
-				Ist heute Magic-Montag?
-			</h2>
-
-			<div class="display-1 center">
-			<?php echo isMagicMonday() ? "Ja" : "Nein"; ?>
-			</div>
-			<div class="container-fluid">
-				Magic-Montag ist wieder am <?php echo strftime("%d.%m.%Y (KW %-V)", nextMagicMonday()); ?>.
+			<div class="container">
+				<h2>Ist heute Magic-Montag?</h2>
+				<div class="display-1">
+					<?php echo isMagicMonday() ? "Ja" : "Nein"; ?>
+				</div>
+				<div>
+					Magic-Montag ist wieder am <?php echo strftime("%d.%m.%Y (KW %-V)", nextMagicMonday()); ?>.
+				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
-					<h5>
-					Wo treffen wir uns?
-				</h5>
+				<div class="col-lg-4">
+					<h5>Wo treffen wir uns?</h5>
 				</div>
-				<div class="col-sm-8">
-						Im IZ Raum 358.
+				<div class="col-lg-8">
+					<p>Im IZ Raum 358.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-					<h5>
-					Wann treffen wir uns?
-				</h5>
+				<div class="col-lg-4">
+					<h5>Wann treffen wir uns?</h5>
 				</div>
-				<div class="col-sm-8">
-					Alle 14 Tage in geraden Kalenderwochen um 17 Uhr.
+				<div class="col-lg-8">
+					<p>Alle 14 Tage in geraden Kalenderwochen um 17 Uhr.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-lg-4">
 					<h5>Wo kann ich Fragen stellen?</h5>
 				</div>
-				<div class="col-sm-8">
-					Komm in den Matrix-Room: <a href="https://matrix.to/#/#fgmtg:stratum0.org" target="_blank">#fgmtg:stratum0.org</a>.
+				<div class="col-lg-8">
+					<p>Komm in den Matrix-Room: <a href="https://matrix.to/#/#fgmtg:stratum0.org" target="_blank">#fgmtg:stratum0.org</a>.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-					<h5>
-						Muss ich die Regeln kennen?
-					</h5>
+				<div class="col-lg-4">
+					<h5>Muss ich die Regeln kennen?</h5>
 				</div>
-			<div class="col-sm-8">
-					Nein, wir bringen dir gerne bei, wie man spielt.
+				<div class="col-lg-8">
+					<p>Nein, wir bringen dir gerne bei, wie man spielt.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-					<h5>
-						Muss ich ein Deck mitbringen?
-					</h5>
+				<div class="col-lg-4">
+					<h5>Muss ich ein Deck mitbringen?</h5>
 				</div>
-				<div class="col-sm-8">
-					Nein, es sind mehr als genug Decks vorhanden.
+				<div class="col-lg-8">
+					<p>Nein, es sind mehr als genug Decks vorhanden.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-					<h5>
-						Welches Format wird gepielt?
-					</h5>
+				<div class="col-lg-4">
+					<h5>Welches Format wird gepielt?</h5>
 				</div>
-				<div class="col-sm-8">
-					Alles m&ouml;gliche: Modern, Standard, Commander und Pauper Decks waren schonmal anwesend.
+				<div class="col-lg-8">
+					<p>Alles m&ouml;gliche: Modern, Standard, Commander und Pauper Decks waren schonmal anwesend.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-						<h5>Sind Proxies erlaubt?</h5>
+				<div class="col-lg-4">
+					<h5>Sind Proxies erlaubt?</h5>
 				</div>
-				<div class="col-sm-8">
-					Klar, alles was Spa&szlig; macht.
+				<div class="col-lg-8">
+					<p>Klar, alles was Spa&szlig; macht.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-						<h5>Kann ich zu dieser Seite beitragen?</h5>
+				<div class="col-lg-4">
+					<h5>Kann ich zu dieser Seite beitragen?</h5>
 				</div>
-				<div class="col-sm-8">
-					Der Code befindet sich auf <a href="https://github.com/ngrash/istheutemagicmontag.de">GitHub</a> und Pull-Requests sind erw&uuml;nscht.
+				<div class="col-lg-8">
+					<p>Der Code befindet sich auf <a href="https://github.com/ngrash/istheutemagicmontag.de">GitHub</a> und Pull-Requests sind erw&uuml;nscht.</p>
 				</div>
 			</div>
-
-
-
-
-
-
-			<h3></h3>
-
-
 		</div>
-
-		<br>
-		<a href="faq.html">FAQ</a>
 	</body>
 </html>
