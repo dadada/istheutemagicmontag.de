@@ -105,7 +105,7 @@ function nextMagicMonday() {
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
-					<h5>Welches Format wird gepielt?</h5>
+					<h5>Welches Format wird gespielt?</h5>
 				</div>
 				<div class="col-lg-8">
 					<p>Alles m&ouml;gliche: Modern, Standard, Commander und Pauper Decks waren schonmal anwesend.</p>
